@@ -1,0 +1,51 @@
+{
+  "name": "@chefuai/core",
+  "version": "1.1.10",
+  "description": "Base entities for building API micro-service",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "if [ -d dist ]; then rm -Rf dist; fi && tsc",
+    "lint": "tslint '{index.ts,src/**/*.ts,test/**/*.ts}' --fix",
+    "prettier": "prettier \"src/**/*.ts\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr3w2/roumen.git"
+  },
+  "author": "Artem Kanaki",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/chefuaidev/chefu-core#readme",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "aws-serverless-express": "^3.3.8",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "nodemailer": "^6.4.6",
+    "winston": "^3.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/aws-serverless-express": "^3.3.3",
+    "@types/config": "0.0.36",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/mongodb": "^3.5.16",
+    "@types/node": "^13.13.5",
+    "@types/nodemailer": "^6.4.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "tslint-etc": "^1.10.1",
+    "typescript": "^3.8.3"
+  }
+}

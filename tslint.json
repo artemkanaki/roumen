@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:recommended", "tslint-etc"],
+  "rules": {
+    "array-type": [true, "generic"],
+    "interface-name": false,
+    "no-trailing-whitespace": [true, "ignore-blank-lines"],
+    "one-line": false,
+    "quotemark": [true, "single"],
+    "curly": true,
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "ordered-imports": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "object-literal-sort-keys": false,
+    "no-namespace": false,
+    "no-return-await": true,
+    "no-string-throw": true,
+    "no-var-keyword": true,
+    "prefer-const": true,
+    "triple-equals": [true, "allow-null-check", "allow-undefined-check"],
+    "switch-default": true,
+    "prefer-template": true,
+    "no-unused-declaration": true,
+    "no-console": false
+  }
+}
