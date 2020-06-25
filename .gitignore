@@ -16,5 +16,5 @@ packages/*/lib
 *.log
 .DS_Store
 .scannerwork
-_fluence.lib.sc.sdk.generator
 .env
+.npmrc

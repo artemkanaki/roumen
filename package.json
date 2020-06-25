@@ -1,6 +1,6 @@
 {
-  "name": "@chefuai/core",
-  "version": "1.1.10",
+  "name": "roumen",
+  "version": "1.0.0",
   "description": "Base entities for building API micro-service",
   "main": "dist/index.js",
   "types": "src/index.ts",
