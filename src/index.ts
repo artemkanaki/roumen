@@ -11,3 +11,6 @@ export * from './layer.entity';
 export * from './layer.manager';
 export * from './router';
 export * from './types';
+
+import * as configPackage from 'config';
+export const config = configPackage;

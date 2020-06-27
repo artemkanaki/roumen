@@ -1,6 +1,6 @@
 {
   "name": "roumen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base entities for building API micro-service",
   "main": "dist/index.js",
   "types": "src/index.ts",
